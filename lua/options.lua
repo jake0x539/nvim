@@ -1,6 +1,6 @@
 -- system clipboard
 vim.schedule(function()
-    vim.opt.clipboard = 'unnamedplus'
+  vim.opt.clipboard = 'unnamedplus'
 end)
 
 -- other options
@@ -26,5 +26,6 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.hl = vim.highlight -- for inspect to work
+vim.wo.wrap = true
 
 -- vim: ts=2 sts=2 sw=2 et
